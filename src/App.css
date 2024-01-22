@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+body {
+  font-family: "Mulish", sans-serif;
+}
+p {
+  padding: 0;
+}
+.homePageBannerDesktop {
+  min-height: 50vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(0, 0, 0, 0.556),
+      rgba(0, 0, 0, 0.328)
+    ),
+    url("https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  background-position: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.homePageBannerMobile {
+  min-height: 60vh;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(0, 0, 0, 0.556),
+      rgba(0, 0, 0, 0.328)
+    ),
+    url("https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  background-position: center;
 }
