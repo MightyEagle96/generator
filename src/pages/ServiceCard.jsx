@@ -1,3 +1,5 @@
+import { ArrowForwardIos } from "@mui/icons-material";
+import { Button } from "@mui/material";
 import React from "react";
 
 export default function ServiceCard({ data }) {
@@ -6,12 +8,13 @@ export default function ServiceCard({ data }) {
       <h2>{data.image()}</h2>
 
       <p style={{ fontWeight: 800, fontSize: 20 }}>{data.name}</p>
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim ut quasi
-        reprehenderit beatae eos cumque quos, quis, id reiciendis necessitatibus
-        odit ipsa! Eius voluptatibus explicabo consequuntur eaque sint,
-        veritatis cum.
-      </p>
+      <p>{data.text}</p>
+
+      <div className="mt-3">
+        <Button sx={{ color: "#f07810" }} endIcon={<ArrowForwardIos />}>
+          Read more
+        </Button>
+      </div>
     </div>
   );
 }
