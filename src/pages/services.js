@@ -49,8 +49,12 @@ export const whyChooseUs = [
   },
   {
     backgroundColor: "#f2f2f2",
-    color: "#222831",
+    color: "#5c5757",
     title: "Customized Solutions",
     text: `We understand that every client's needs are unique. Our services are tailored to meet your specific requirements, ensuring a customized and effective approach.`,
   },
 ];
+export const bottomText = {
+  p1: `Whether you're looking for immediate repairs, a new installation, routine servicing, or preventive maintenance, KONAN SOLUTIONS is your go-to partner for all your generator needs.`,
+  p2: `Contact us today to experience the difference of working with a dedicated team committed to keeping your power on!`,
+};

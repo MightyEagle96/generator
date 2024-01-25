@@ -3,7 +3,7 @@ import React from "react";
 
 export default function ChoiceCard({ choice }) {
   return (
-    <div className="col-lg-3 me-5 mb-4   p-0">
+    <div className="col-lg-4 me-2 mb-4  ">
       <div
         className="p-3 m-0"
         style={{ backgroundColor: choice.backgroundColor }}

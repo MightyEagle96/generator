@@ -1,5 +1,5 @@
 import React from "react";
-import { aboutUsSection, services, whyChooseUs } from "./services";
+import { aboutUsSection, bottomText, services, whyChooseUs } from "./services";
 import ServiceCard from "./ServiceCard";
 import FooterPage from "./FooterPage";
 import { Avatar, Typography } from "@mui/material";
@@ -9,7 +9,7 @@ export default function HomePage() {
   return (
     <div>
       <div className="mb-5">
-        <div className="d-none d-lg-block">
+        <div className="d-none d-md-block">
           <div className="homePageBannerDesktop d-flex justify-content-center align-items-center">
             <div className="text-center">
               <p
@@ -116,13 +116,6 @@ export default function HomePage() {
                 </div>
               </div>
             </div>
-            <div>
-              <div className="row">
-                {whyChooseUs.map((c, i) => (
-                  <ChoiceCard choice={c} key={i} />
-                ))}
-              </div>
-            </div>
           </div>
           <div className="d-sm-block d-lg-none text-center">
             <div className="d-flex justify-content-center mb-4">
@@ -141,6 +134,53 @@ export default function HomePage() {
                   Why choose us?
                 </Typography>
                 <hr />
+              </div>
+            </div>
+          </div>
+          <div>
+            <div className="row">
+              {whyChooseUs.map((c, i) => (
+                <ChoiceCard choice={c} key={i} />
+              ))}
+            </div>
+          </div>
+        </div>
+        <div className="mt-5" style={{ backgroundColor: "#22313f" }}>
+          <div className="container pt-5 pb-5">
+            <div className="row">
+              <div className="col-lg-6 mb-4 d-flex align-items-center">
+                <Typography color="#fff" fontWeight={100}>
+                  {bottomText.p1}
+                </Typography>
+              </div>
+              <div className="col-lg-6 mb-4">
+                <div className="d-none d-lg-block">
+                  <Typography
+                    style={{ color: "#f07810" }}
+                    variant="h4"
+                    fontWeight={700}
+                  >
+                    {bottomText.p2}
+                  </Typography>
+                </div>
+                <div className="d-sm-block d-md-none">
+                  <Typography
+                    style={{ color: "#f07810" }}
+                    variant="h6"
+                    fontWeight={700}
+                  >
+                    {bottomText.p2}
+                  </Typography>
+                </div>
+                <div className="d-none d-md-block d-lg-none">
+                  <Typography
+                    style={{ color: "#f07810" }}
+                    variant="h5"
+                    fontWeight={700}
+                  >
+                    {bottomText.p2}
+                  </Typography>
+                </div>
               </div>
             </div>
           </div>
