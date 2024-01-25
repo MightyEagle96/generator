@@ -1,5 +1,5 @@
 import React from "react";
-import { services } from "./services";
+import { aboutUsSection, services } from "./services";
 import ServiceCard from "./ServiceCard";
 import FooterPage from "./FooterPage";
 
@@ -70,22 +70,8 @@ export default function HomePage() {
             <div className="col-lg-6">
               <h3 style={{ fontWeight: 600 }}>About Us</h3>
 
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-                ullam impedit dolores repellat nobis minus magni eligendi, odit
-                ipsam iste perferendis voluptates nostrum qui veniam sapiente
-                quidem eaque a distinctio? Tempore odit debitis quas voluptate
-                eum saepe ex ad quo eaque repellat totam ipsam atque placeat
-                dicta necessitatibus omnis, culpa cupiditate at libero sunt
-                pariatur, deleniti expedita? Aliquid, eos alias. Ducimus iste
-                dolores ratione dolorum, cum maxime magni animi nam et repellat
-                reprehenderit molestiae culpa nemo accusamus quis odit similique
-                in excepturi alias doloribus nisi, sunt perferendis. Ratione,
-                eum corporis! Magnam fuga voluptatem soluta, sequi, maiores
-                vitae porro molestiae hic, quaerat suscipit commodi iste quia
-                nulla illum ea? Quae accusantium magnam voluptatibus possimus
-                minus eius odio itaque temporibus? Sunt, atque.
-              </p>
+              <p>{aboutUsSection.p1}</p>
+              <p>{aboutUsSection.p2}</p>
             </div>
             <div className="col-lg-6">
               <img

@@ -22,3 +22,8 @@ export const services = [
     text: `The installation of a generator power plant is a complex process that involves various tasks to ensure the safe, efficient, and reliable operation of the power generation system. Our installation services include site assessment, engineering and design, permitting and regulatory compliance, foundation construction, generator installation, fuel system installation, cooling system setup, etc.`,
   },
 ];
+
+export const aboutUsSection = {
+  p1: `Welcome to Konan Solutions, your premier destination for comprehensive generator solutions! With a commitment to excellence and a passion for reliable power, we specialize in generator repairs, installation, servicing, and maintenance.`,
+  p2: `At Konan Solutions, we understand the critical role generators play in ensuring uninterrupted power supply for both residential and commercial settings. Our team of highly skilled technicians is dedicated to providing top-notch services to keep your generators running smoothly and efficiently.`,
+};
