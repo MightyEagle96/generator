@@ -27,3 +27,30 @@ export const aboutUsSection = {
   p1: `Welcome to Konan Solutions, your premier destination for comprehensive generator solutions! With a commitment to excellence and a passion for reliable power, we specialize in generator repairs, installation, servicing, and maintenance.`,
   p2: `At Konan Solutions, we understand the critical role generators play in ensuring uninterrupted power supply for both residential and commercial settings. Our team of highly skilled technicians is dedicated to providing top-notch services to keep your generators running smoothly and efficiently.`,
 };
+
+export const whyChooseUs = [
+  {
+    backgroundColor: "#222831",
+    color: "#fff",
+    title: "Expertise",
+    text: `Our team comprises highly skilled and certified technicians with extensive experience in the field of generator services.`,
+  },
+  {
+    backgroundColor: "#393e46",
+    color: "#fff",
+    title: "Reliabilty",
+    text: `We prioritize reliability in all aspects of our services. You can trust us to deliver consistent and dependable solutions.`,
+  },
+  {
+    backgroundColor: "#f96d00",
+    color: "#fff",
+    title: "Customer Satisfaction",
+    text: `Your satisfaction is our top priority. We strive to exceed your expectations through quality workmanship and excellent customer service.`,
+  },
+  {
+    backgroundColor: "#f2f2f2",
+    color: "#fff",
+    title: "Customized Solutions",
+    text: `We understand that every client's needs are unique. Our services are tailored to meet your specific requirements, ensuring a customized and effective approach.`,
+  },
+];

@@ -2,6 +2,7 @@ import React from "react";
 import { aboutUsSection, services } from "./services";
 import ServiceCard from "./ServiceCard";
 import FooterPage from "./FooterPage";
+import { Avatar, Typography } from "@mui/material";
 
 export default function HomePage() {
   return (
@@ -82,12 +83,57 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-        <div className="bg-dark mt-5 text-white">
+        <div className="bg-dark mt-5 mb-5 text-white">
           <div className="container">
             <div className="row pt-5 pb-5">
               {services.map((c, i) => (
                 <ServiceCard data={c} key={i} />
               ))}
+            </div>
+            <div></div>
+          </div>
+        </div>
+        <div className="container">
+          <div className="d-none d-lg-block">
+            <div className="row">
+              <div className="col-lg-4">
+                <Avatar
+                  sx={{ height: 300, width: 300 }}
+                  src="https://images.pexels.com/photos/5428836/pexels-photo-5428836.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                />
+              </div>
+              <div className="col-lg-6 d-flex align-items-center">
+                <div>
+                  <Typography
+                    sx={{ color: "#8f8787" }}
+                    variant="h3"
+                    fontWeight={700}
+                  >
+                    Why choose us?
+                  </Typography>
+                  <hr />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="d-sm-block d-lg-none text-center">
+            <div className="d-flex justify-content-center mb-4">
+              <Avatar
+                sx={{ height: 150, width: 150 }}
+                src="https://images.pexels.com/photos/5428836/pexels-photo-5428836.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              />
+            </div>
+            <div>
+              <div>
+                <Typography
+                  sx={{ color: "#8f8787" }}
+                  variant="h5"
+                  fontWeight={700}
+                >
+                  Why choose us?
+                </Typography>
+                <hr />
+              </div>
             </div>
           </div>
         </div>
