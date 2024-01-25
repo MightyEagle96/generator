@@ -1,8 +1,9 @@
 import React from "react";
-import { aboutUsSection, services } from "./services";
+import { aboutUsSection, services, whyChooseUs } from "./services";
 import ServiceCard from "./ServiceCard";
 import FooterPage from "./FooterPage";
 import { Avatar, Typography } from "@mui/material";
+import ChoiceCard from "./ChoiceCard";
 
 export default function HomePage() {
   return (
@@ -95,7 +96,7 @@ export default function HomePage() {
         </div>
         <div className="container">
           <div className="d-none d-lg-block">
-            <div className="row">
+            <div className="row mb-4">
               <div className="col-lg-4">
                 <Avatar
                   sx={{ height: 300, width: 300 }}
@@ -113,6 +114,13 @@ export default function HomePage() {
                   </Typography>
                   <hr />
                 </div>
+              </div>
+            </div>
+            <div>
+              <div className="row">
+                {whyChooseUs.map((c, i) => (
+                  <ChoiceCard choice={c} key={i} />
+                ))}
               </div>
             </div>
           </div>

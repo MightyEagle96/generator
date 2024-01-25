@@ -49,7 +49,7 @@ export const whyChooseUs = [
   },
   {
     backgroundColor: "#f2f2f2",
-    color: "#fff",
+    color: "#222831",
     title: "Customized Solutions",
     text: `We understand that every client's needs are unique. Our services are tailored to meet your specific requirements, ensuring a customized and effective approach.`,
   },
