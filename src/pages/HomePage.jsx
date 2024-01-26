@@ -77,9 +77,9 @@ export default function HomePage() {
             </div>
             <div className="col-lg-6">
               <img
-                src="https://guide.directindustry.com/wp-content/uploads/SNAG-0070.png"
+                src="https://images.unsplash.com/photo-1636867759143-c28c1e909bd3?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Generator Set"
-                className="img-fluid"
+                className="img-fluid rounded-3 shadow-sm"
               />
             </div>
           </div>
